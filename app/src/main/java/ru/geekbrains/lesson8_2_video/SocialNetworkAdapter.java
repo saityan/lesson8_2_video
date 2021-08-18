@@ -6,6 +6,7 @@ import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -53,7 +54,7 @@ public class SocialNetworkAdapter extends RecyclerView.Adapter<SocialNetworkAdap
         private TextView title;
         private TextView description;
         private ImageView imageView;
-        private CheckBox like;
+        private ToggleButton like;
 
         public MyViewHolder(View itemView) {
             super(itemView);
@@ -95,11 +96,11 @@ public class SocialNetworkAdapter extends RecyclerView.Adapter<SocialNetworkAdap
             this.description = description;
         }
 
-        public CheckBox getLike() {
+        public ToggleButton getLike() {
             return like;
         }
 
-        public void setLike(CheckBox like) {
+        public void setLike(ToggleButton like) {
             this.like = like;
         }
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">network</string>
+    <string name="app_name">SocialNetwork</string>
     <string name="scrolling_link">com.google.android.material.appbar.AppBarLayout$scrollingviewbehavior</string>
     <string-array name="test_title">
         <item>1</item>

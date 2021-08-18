@@ -2,6 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.Lesson8_2_video" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
 
+        <item name="android:ambientShadowAlpha">1</item>
+        <item name="android:spotShadowAlpha">1</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <!-- Primary brand color. -->

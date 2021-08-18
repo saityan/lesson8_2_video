@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="20dp"
+    android:layout_margin="10dp"
     app:cardCornerRadius="10dp"
     app:cardElevation="10dp">
     <LinearLayout
@@ -24,10 +24,18 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="horizontal">
-            <CheckBox
+        <!--<CheckBox
                 android:id="@+id/like"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"/>  -->
+            <ToggleButton
+                android:id="@+id/like"
+                android:text=""
+                android:textOn=""
+                android:textOff=""
+                android:background="@drawable/button_background"
+                android:layout_width="@dimen/like_size"
+                android:layout_height="@dimen/like_size" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
