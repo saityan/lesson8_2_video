@@ -9,7 +9,6 @@ public class CardData implements Parcelable {
     private int picture;
     private boolean like;
 
-
     public CardData(String title, String description, int picture, boolean like) {
         this.title = title;
         this.description = description;
