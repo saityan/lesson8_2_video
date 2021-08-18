@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson8_2_video;
+package ru.geekbrains.lesson8_2_video.view;
 
 import android.view.View;
 

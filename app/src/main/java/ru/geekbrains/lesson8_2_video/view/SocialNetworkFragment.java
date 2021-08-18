@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson8_2_video;
+package ru.geekbrains.lesson8_2_video.view;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,6 +13,10 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import ru.geekbrains.lesson8_2_video.R;
+import ru.geekbrains.lesson8_2_video.model.CardSource;
+import ru.geekbrains.lesson8_2_video.model.CardSourceImplementation;
+
 public class SocialNetworkFragment extends Fragment {
     public static SocialNetworkFragment newInstance() {
         return new SocialNetworkFragment();
@@ -22,7 +26,6 @@ public class SocialNetworkFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_social_network, container, false);
-        //String[] data = getResources().getStringArray(R.array.test_title);
         CardSource data = new CardSourceImplementation(getResources()).init();
 
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView);

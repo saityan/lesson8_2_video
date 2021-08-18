@@ -1,15 +1,17 @@
-package ru.geekbrains.lesson8_2_video;
+package ru.geekbrains.lesson8_2_video.view;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import ru.geekbrains.lesson8_2_video.R;
+import ru.geekbrains.lesson8_2_video.model.CardSource;
 
 public class SocialNetworkAdapter extends RecyclerView.Adapter<SocialNetworkAdapter.MyViewHolder> {
 

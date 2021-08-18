@@ -1,10 +1,13 @@
-package ru.geekbrains.lesson8_2_video;
+package ru.geekbrains.lesson8_2_video.model;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import ru.geekbrains.lesson8_2_video.R;
+import ru.geekbrains.lesson8_2_video.model.domain.CardData;
 
 public class CardSourceImplementation implements CardSource {
 

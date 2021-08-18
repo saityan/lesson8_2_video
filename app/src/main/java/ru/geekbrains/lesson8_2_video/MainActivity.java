@@ -1,9 +1,11 @@
 package ru.geekbrains.lesson8_2_video;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.os.Bundle;
+import ru.geekbrains.lesson8_2_video.view.SocialNetworkFragment;
 
 public class MainActivity extends AppCompatActivity {
 
